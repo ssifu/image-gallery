@@ -1,0 +1,65 @@
+.container {
+  position: relative;
+  width: 60%;
+  height: auto;
+  margin: 2rem auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 1rem;
+  border: 1px solid rgb(192, 191, 213);
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.file-numbers {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.button {
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.5rem;
+  opacity: 1;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.make-feature {
+  background-color: #2218a7;
+  border: 3px solid #2218a7;
+}
+
+.delete-button {
+  background-color: #f44336;
+  border: 3px solid #f44336;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.make-feature:hover {
+  background-color: #fff;
+  color: #2218a7;
+}
+
+.delete-button:hover {
+  background-color: #fff;
+  color: #f44336;
+}
+
+hr {
+  width: 100%;
+}
