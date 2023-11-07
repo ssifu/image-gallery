@@ -3,12 +3,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  /* width: 60%; */
+  width: 500px;
   height: auto;
+  margin: 0 auto;
+  text-align: center;
   background-color: white;
   border-radius: 1rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   overflow: hidden;
+}
+
+.carousel > .img {
+  width: 100%;
 }
 
 .slide {
