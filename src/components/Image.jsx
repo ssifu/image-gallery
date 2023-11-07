@@ -52,15 +52,16 @@ const Image = ({
       <img src={`${url}`} alt={name} draggable={true} />
       <div
         className={`overlay ${
-          selectedImage.includes(id) ? "img-selected__overlay-opacity" : null
+          selectedImage.includes(id) ? "img-selected__overlay-opacity" : ""
         }`}
       >
         <input
           type="checkbox"
           className={`selectImage ${
-            selectedImage.includes(id) ? "img-selected__input-visibility" : null
+            selectedImage.includes(id) ? "img-selected__input-visibility" : ""
           }`}
           name="selectedFiles"
+          checked={selectedImage.includes(id)}
           onChange={(event) => handleImageClick(event, id)}
           onClick={(event) => {
             event.stopPropagation();

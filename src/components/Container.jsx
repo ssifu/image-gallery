@@ -18,6 +18,9 @@ const Container = () => {
         });
       });
     }
+    setSelectedImage((prev) => {
+      return [];
+    });
   };
 
   const makeImageFeatured = () => {
