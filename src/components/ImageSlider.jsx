@@ -26,12 +26,11 @@ const ImageSlider = ({ imageList, sliderImage }) => {
       />
       {imageList &&
         imageList.map(({ id, name, url }, index) => {
-          console.log(sliderImage);
           return (
             <img
               src={`${url}`}
-              alt={name}
               key={index}
+              alt={name}
               className={
                 currentIndex === index ? "slide" : "slide slide-hidden"
               }

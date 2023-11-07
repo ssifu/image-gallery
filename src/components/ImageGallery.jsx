@@ -57,7 +57,6 @@ const ImageGallery = ({
       <DndProvider backend={HTML5Backend}>
         <div className="gallery">
           {imageList.map(({ id, name, url }, index) => {
-            // const fileName = image.img.split("/")[-1];
             return (
               <Image
                 key={index}
